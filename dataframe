@@ -1,0 +1,11 @@
+import pandas as pd  #import pandas library
+
+
+
+#created a list of products
+products = [['Chips','Simba','Lays'],['Cooldrinks','Coke','Fanta'],['Chocolates','Cardbury','Tex'],['Pies','Pepper Steak'], 
+            ['Fruit','Pear','Apple','Orange'],['Cupcakes','Vanilla','Chocolate'],['Veggies','Spinach','Cabbage']]
+#calling dataframe constructor
+#specified columns
+df = pd.DataFrame(products, columns = ['Product Type','Product 1','Product 2','Product 3'])
+df
